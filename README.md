@@ -1,7 +1,8 @@
 Local dev environment using Docker, NodeJs, Redis, MongoDB, Nginx
 
 # Instruction  
-You must have Docker to run this repo
+You must have Docker to run this repo  
+
 the docker plugins for Visual Studio code are a nice bonus :-)
 
 # Usage  
