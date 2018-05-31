@@ -1,0 +1,27 @@
+{
+	"db": {
+		"username": "Admin",
+		"password": "mradmin",
+		"host": "172.20.0.2",
+		"port": "27017",
+		"name": "db"
+	},
+	"sessionSecret": "<RandomString>",
+	"facebook": {
+		"clientID": "<AppID>",
+		"clientSecret": "<AppSecret>",
+		"callbackURL": "/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "<ConsumerKey>",
+		"consumerSecret": "<ConsumerSecret>",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"redis": {
+		"host": "chatproject_redis_1",
+		"port": 6379,
+		"password": ""
+	}
+}
