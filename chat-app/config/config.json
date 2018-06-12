@@ -8,10 +8,11 @@
 	},
 	"sessionSecret": "<RandomString>",
 	"facebook": {
-		"clientID": "<AppID>",
-		"clientSecret": "<AppSecret>",
+		"clientID": "468424083591511",
+		"clientSecret": "5fa516435ea81a24b14efcb691fd7c6a",
 		"callbackURL": "/auth/facebook/callback",
-		"profileFields": ["id", "displayName", "photos"]
+		"profileFields": ["id", "displayName", "photos"],
+		"enableProof": true
 	},
 	"twitter": {
 		"consumerKey": "<ConsumerKey>",
@@ -20,7 +21,7 @@
 		"profileFields": ["id", "displayName", "photos"]
 	},
 	"redis": {
-		"host": "chatproject_redis_1",
+		"host": "redis",
 		"port": 6379,
 		"password": ""
 	}

@@ -3,12 +3,13 @@
 var app = {
 
   rooms: function(){
-
+  
+      
     var socket = io('/rooms', { transports: ['websocket'] });
-
+  
     // When socket connects, get a list of chatrooms
     socket.on('connect', function () {
-
+      
       // Update rooms list upon emitting updateRoomsList event
       socket.on('updateRoomsList', function(room) {
 
@@ -36,7 +37,7 @@ var app = {
 
   chat: function(roomId, username){
     
-    var socket = io('/chatroom', { transports: ['websocket'] });
+    var socket = io('/chatroom', { transports: ['websocket','polling'] });
 
       // When socket connects, join the current chatroom
       socket.on('connect', function () {
